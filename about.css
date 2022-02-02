@@ -1,0 +1,97 @@
+/* .text{
+	position: fixed;
+	display: flex;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-45%) translateY(-45%);
+	color: rgba(51, 176, 237);
+	text-shadow: -3px 1px rgba(19, 0, 255);
+	background-color: rgba(19, 116, 255, 0.3);
+	width: 50%;
+	height: 50%;
+	padding: 0.5%;
+	border: 2px solid;
+	border-radius: 20px;
+	border-color: rgb(53, 183, 241);
+}
+
+.text:hover{
+	text-shadow: -2px 2px rgba(19, 0, 255);
+	color: cyan;
+	border-color: rgb(0, 255, 255);
+} */
+
+/* .p1{
+	position: fixed;
+	display: flex;
+	top: 50%;
+	left: 10%;
+	padding: 1%;
+	text-shadow: -3px 1px rgba(19, 0, 255);
+	border: 2px solid;
+	border-radius: 20px;
+	border-color: rgb(53, 183, 241);
+}
+.p1:hover{
+	text-shadow: -2px 2px rgba(19, 0, 255);
+	color: cyan;
+	border-color: rgb(0, 255, 255);
+} */
+
+.contenedor2{
+	position: fixed;
+	display: flex;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-45%) translateY(-45%);
+    width: 80%;
+    height: 30%;
+    font-size: 80px;
+    line-height: 300px;
+
+    overflow: hidden;
+	
+	color: rgba(51, 176, 237);
+	text-shadow: -2.5px 1px rgba(19, 0, 255);
+	background-color: rgba(19, 116, 255, 0.3);
+	padding: 0.5%;
+	border-radius: 20px;
+/* 	border: 2px solid;
+	
+	border-color: rgb(53, 183, 241); */
+}
+.parrafo2{
+    list-style: none;
+    padding-left: 30px;
+    animation: cambiar 7s infinite;
+    font-size: 3.2rem;
+	text-align: center;
+	color: rgba(51, 176, 237);
+	text-shadow: -3px 1px rgba(19, 0, 255);
+	background-color: rgba(19, 116, 255, 0.3);
+	background: linear-gradient(217deg, rgb(19, 116, 255), rgba(0, 255, 255) 100%);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.parrafo2, p {
+    margin: 0;
+}
+.contenedor2:hover{
+	color: cyan;
+	border-color: rgb(0, 255, 255);
+}
+
+@keyframes cambiar{
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+    25%{margin-top: -300px;}
+    50%{margin-top: -300px;}
+
+    55%{margin-top: -600px;}
+    80%{margin-top: -600px;}
+
+/*     85%{margin-top: -300px;}
+    95%{margin-top: -300px;} */
+
+    100%{margin-top: -0px;}

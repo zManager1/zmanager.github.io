@@ -1,0 +1,44 @@
+<header>
+		<a href="#"><img src="img/1.png"></a>
+			<nav>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="productos.html" target="_blank">Productos</a></li>
+					<li><a href="proyectos.html" target="_blank">Proyectos</a></li>
+					<li><a href="soporte.html" target="_blank">Soporte</a></li>
+					<li><a href="https://discord.gg/zshop" target="_blank">Discord</a></li>
+				<ul>
+			</nav>
+		<a href="https://github.com/zManager1" target="_blank"><img src="img/git.png" class="git"></a>
+	</header>
+-----------------------------------------
+/* nav a{
+	text-decoration: none;
+	color: rgba(131, 205, 255);
+	text-shadow: -2px 1px rgba(19, 0, 255);
+}
+nav a:hover{
+	text-shadow: -2px 2px rgba(19, 0, 255);
+	color: cyan;
+} */
+-------------------
+/* nav ul{
+	
+	list-style: none;
+	font-weight: bold;
+	padding: 5%;
+	
+	
+}
+nav ul li{
+	margin-top: 20%;
+	color: rgba(131, 205, 255);
+	text-shadow: -1px 1px rgba(19, 0, 255);
+	font-size: 35px;
+	margin-left: 5%;
+}
+nav ul li:hover{
+	text-shadow: -2px 2px rgba(19, 0, 255);
+	color: cyan;
+	background-color: rgba(0, 193, 255, 0.5);
+} */
